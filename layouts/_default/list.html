@@ -5,7 +5,6 @@
 
 <div id="hero" class="wrap">
   <h1>Voice of {{.Site.Params.author }} Developers</h1>
-    <p>Our vision, news and ideas, and whatever feels important.<br> <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow us on Twitter</a></p>
 </div>
 <ul id="posts">
 
@@ -13,7 +12,7 @@
   <section>{{ partial "pagination" .}}</section>
 </ul>
 
-{{ end }} 
-{{ define "footer" }} 
-  {{ partial "footer" . }} 
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" . }}
 {{ end }}
