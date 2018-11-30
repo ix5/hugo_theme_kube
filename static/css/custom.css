@@ -8,3 +8,8 @@ footer#footer {
 a {
     text-decoration: none;
 }
+pre,
+code,
+pre code {
+  word-break: break-all;
+}
