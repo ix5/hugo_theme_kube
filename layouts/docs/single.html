@@ -13,6 +13,12 @@
     {{ partial "toc" .}}
 
     {{ .Content}}
+
+    {{ if .Site.Params.issoURL }}
+    <section id="isso-thread"></section>
+    {{ partial "isso-js" . $.Site.Params.issoURL }}
+    {{ end }}
+
 <!-- Inject script tag in this template  -->
     {{if .Params.script}}
      {{ $script := (delimit (slice "scripts" .Params.script) "/")}}

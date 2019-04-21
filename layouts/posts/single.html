@@ -23,6 +23,11 @@
         {{ partial "post/related-content" . }}
     </div>
 
+    {{ if .Site.Params.issoURL }}
+    <section id="isso-thread"></section>
+    {{ partial "isso-js" . $.Site.Params.issoURL }}
+    {{end }}
+
 </div>
 </div>
 {{ end }}
