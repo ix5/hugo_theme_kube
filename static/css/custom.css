@@ -5,6 +5,18 @@
 #hero blockquote {
     border: none;
 }
+@media (max-width: 768px) {
+    #top #top-nav-main ul {
+        text-align: center;
+    }
+    #top #top-nav-main ul > li {
+        display: inline;
+        margin-right: 1em;
+    }
+    #top #top-nav-main ul > li:last-child {
+        margin-right: 0;
+    }
+}
 footer#footer {
     margin: 104px 0 0;
 }
