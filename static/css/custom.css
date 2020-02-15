@@ -2,6 +2,9 @@
     text-decoration: none;
     color: inherit;
 }
+#hero blockquote {
+    border: none;
+}
 footer#footer {
     margin: 104px 0 0;
 }
