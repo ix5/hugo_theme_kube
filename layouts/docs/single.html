@@ -14,6 +14,11 @@
 
     {{ .Content}}
 
+    <p style="text-align: center">
+    <a href="https://github.com/ix5/sx_docs/tree/master/content/{{ .File.Path }}">
+      Edit source on Github
+    </a>
+    </p>
     {{ if .Site.Params.issoURL }}
     <section id="isso-thread"></section>
     {{ partial "isso-js" . $.Site.Params.issoURL }}

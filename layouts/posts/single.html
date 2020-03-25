@@ -21,6 +21,11 @@
     <div class="">
         {{ partial "post/byauthor" . }}
         {{ partial "post/related-content" . }}
+    <p style="text-align: center">
+    <a href="https://github.com/ix5/sx_docs/tree/master/content/{{ .File.Path }}">
+      Edit source on Github
+    </a>
+    </p>
     </div>
 
     {{ if .Site.Params.issoURL }}
