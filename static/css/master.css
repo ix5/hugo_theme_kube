@@ -251,41 +251,6 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: -20px;
       background: #ff3366; }
 
-#intro {
-  margin-top: 56px;
-  margin-bottom: 140px;
-  text-align: center;
-  position: relative; }
-  #intro:before {
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 3px;
-    top: -68px;
-    left: 50%;
-    margin-left: -20px;
-    background: #ff3366; }
-  #intro h6 {
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: normal; }
-  #intro h2 {
-    font-weight: 900; }
-    #intro h2 a {
-      color: #3794de;
-      text-decoration: none; }
-    #intro h2 a:hover {
-      -moz-transition: all linear 0.2s;
-      transition: all linear 0.2s;
-      color: #000;
-      text-decoration: underline; }
-  #intro p {
-    font-size: 15px;
-    margin: auto;
-    padding: 0 20px; }
-  @media (max-width: 768px) {
-    #intro .col {
-      margin-bottom: 48px; } }
-
 #action-buttons {
   margin-bottom: 64px;
   text-align: center; }
