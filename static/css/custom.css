@@ -16,6 +16,9 @@
     #top #top-nav-main ul > li:last-child {
         margin-right: 0;
     }
+    #top {
+        padding-top: 10px;
+    }
 }
 footer#footer {
     margin: 104px 0 0;
@@ -27,4 +30,16 @@ pre,
 code,
 pre code {
   word-break: break-all;
+}
+#top #top-nav-main a {
+    color: #3794de;
+    font-size: 18px;
+}
+.pagination .button.small {
+    min-height: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.pagination .next a, .pagination .prev a {
+    border-width: 2px;
 }
