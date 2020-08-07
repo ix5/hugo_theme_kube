@@ -1,11 +1,14 @@
 body {
-  font-family: Lato, Arial, sans-serif; }
+  /* font-family: Lato, Arial, sans-serif; } */
+  font-family: Arial, sans-serif; }
 
 h1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Lato, Arial, sans-serif; }
+  /* font-family: Lato, Arial, sans-serif; } */
+  font-family: Arial, sans-serif; }
 
 button, .button {
-  font-family: Lato, Arial, sans-serif; }
+  /* font-family: Lato, Arial, sans-serif; } */
+  font-family: Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222; }
@@ -325,7 +328,7 @@ body.page-account #hero {
     margin-bottom: 48px; }
 
 .content {
-  max-width: 840px;
+  max-width: 920px;
   margin: auto; }
 
 #redactor-intro-box {
@@ -755,12 +758,12 @@ body.page-account #hero {
   color: rgba(0, 0, 0, 0.5); }
 
 #post-box {
-  max-width: 740px;
+  max-width: 920px;
   margin: auto; }
 
 #post {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   margin-bottom: 40px; }
 
 #components {

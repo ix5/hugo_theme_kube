@@ -1,6 +1,8 @@
 #top #top-brand a {
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 #hero blockquote {
     border: none;
@@ -34,6 +36,17 @@ pre code {
 #top #top-nav-main a {
     color: #3794de;
     font-size: 18px;
+}
+#top #top-nav-main a.active {
+    color: #145e99;
+    border-bottom: 2px solid #90d3d7;
+}
+#top-nav-extra img {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    vertical-align: text-bottom;
+    opacity: 0.8;
 }
 .pagination .button.small {
     min-height: 0;
