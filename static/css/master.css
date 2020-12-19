@@ -279,11 +279,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 24px; }
   #contents ol {
     margin: 0; }
-  #contents li {
+  #contents ol ul li {
     line-height: 40px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     margin-right: 24px;
     counter-increment: count; }
+
+  #contents ol ul li ul {
+      counter-reset: countsub;
+  }
+  #contents ol ul li ul li {
+      counter-increment: countsub;
+  }
+  #contents ol ul li ul li a:before {
+      content: counter(countsub, decimal-leading-zero);
+  }
+
   #contents li:last-child {
     border-bottom: none; }
   #contents a {

@@ -2004,7 +2004,8 @@ button:hover,
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 14px;
   line-height: 20px;
-  background: #e0e1e1;
+  /* background: #e0e1e1; */
+  background: #ddf0f0;
   color: #313439;
   padding: 1rem;
   padding-right: 2.5em;
