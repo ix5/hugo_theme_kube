@@ -84,3 +84,82 @@ pre code {
 .pagination .next a, .pagination .prev a {
     border-width: 2px;
 }
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #011714;
+        color: #eefdff;
+    }
+    a {
+        color: #27b0e6;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #eefdff;
+    }
+    .message h1,
+    .message h2,
+    .message h3,
+    .message h4,
+    .message h5,
+    .message h6 {
+        color: #0d0d0e;
+    }
+    #hero p {
+        color: #9badad;
+    }
+    #contents {
+        background: #072533;
+    }
+    #contents a {
+        color: #27b0e6;
+    }
+    #contents a:before {
+        color: #9badad;
+    }
+    #hero blockquote {
+        color: #9badad;
+    }
+    #nav-toggle-brand a {
+        color: #eefdff;
+    }
+    #nav-toggle {
+        color: #eefdff;
+    }
+    code, kbd, mark, samp {
+        color: #eefdff;
+        background: #344246;
+    }
+    footer p {
+        color: #eefdff;
+    }
+    #components .item {
+        background: #072533;
+    }
+    #components p {
+        color: #9badad;
+    }
+    #top {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    #top #top-nav-main {
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    #top #top-nav-main a.active {
+        color: #9bc8ec;
+    }
+    #top #top-nav-main a:hover {
+        color: #9bc8ec;
+    }
+    .pager a {
+        color: #9badad;
+        border-color: #364b4b;
+    }
+    #posts time {
+        color: #9badad;
+    }
+    blockquote {
+        color: #eefdff;
+        border-left: 4px solid #496166;
+    }
+}
