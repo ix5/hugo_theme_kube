@@ -2013,7 +2013,10 @@ button:hover,
   margin-bottom: 24px;
   position: relative; }
   .message a {
-    color: inherit; }
+    color: #1764de;
+    /* color: inherit; */
+    text-decoration: underline;
+  }
   .message h2,
   .message h3,
   .message h4,
