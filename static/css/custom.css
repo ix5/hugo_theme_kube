@@ -163,3 +163,10 @@ pre code {
         border-left: 4px solid #496166;
     }
 }
+
+/* Highlight author comments
+ * https://vincent.bernat.ch/en/blog/2018-more-privacy-blog */
+#isso-thread .avatar > svg[data-hash="6d17bfab2705"] {
+    background: #004951;
+    box-shadow: 0 0 12px #004951;
+}
